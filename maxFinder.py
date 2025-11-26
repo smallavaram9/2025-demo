@@ -19,7 +19,8 @@ def find_max(items: Iterable[T]) -> Optional[T]:
     Examples:
         >>> find_max([1, 3, 2])
         3
-        >>> find_max([])
+        >>> find_max([]) is None
+        True
         >>> find_max((x for x in range(5)))
         4
     """
